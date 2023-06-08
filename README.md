@@ -1,7 +1,7 @@
-LOOPS
+# LOOPS
 
 
-What is looping statements in java?
+# What is looping statements in java?
 
   Looping statements are used to repeat the same code multiple times until the condition is failed.Using loops is better than writing the same code multiple times. 
 
@@ -21,7 +21,7 @@ Types of Loops:
 
 
 
-For loop:
+# For loop:
 
 For loop is a loop that prints data from starting to end. For loop has 3 parts.
 
@@ -49,11 +49,28 @@ for( int  i= 0; i <= 10; i++){
 	System.out.println(“Hello World”);
 }
 
-In the example above, “Hello World” will get printed 10 times. 
+In the example above, “Hello World” will get printed 10 times.
 
 
+# .length method():
+.length() is used to take all the elements( increasing or decreasing). Java class int class has provided this method. It is good to use because we dont need to worry about the size of the array. The loop will repeat until the condition fails.
+Example:
 
-For each loop:
+int num = 200;
+
+for(int i = 0; i <= num.length; i++){
+
+	System.out.println("Shubha!");
+
+}
+
+Note: If we want to get the specific index of an array, you will use the index number in square brackets.
+
+Example:
+
+number[4]
+
+# For each loop:
 
 For each loop is another looping statement. It does not have condition. It will print print the data from start to end.  It will take all the records from starting to end. 
 
@@ -67,7 +84,7 @@ for(int num: number){
 
 
 
-Break and Continue:
+# Break and Continue:
 
   We can use break and continue in all loops. We use break to stop the loop, but continue is used to skip the particular iteration(loop).
 
@@ -120,7 +137,7 @@ Class Test{
 
 }
 
-Unreachable Statement and Infinite Loop:
+# Unreachable Statement and Infinite Loop:
 
 If we dont apply any condition to the for loop we will get true condition by default. The loop will run forever. 
 
@@ -153,7 +170,7 @@ infinite loop runs forever and an unreachable statement is we have an infinite l
 
 the loop always iterates infinite times and outside the loop code is not executed which is unreachable.
 
-What is an array?
+# What is an array?
 
 Array is a group of elements which are of homogeneous types. Homogeneous means same data types. Array takes the group of elements or characters which are of same data types. It takes the data in index form. The index will always start from 0.
 
