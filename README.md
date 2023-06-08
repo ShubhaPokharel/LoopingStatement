@@ -75,17 +75,27 @@ Break and Continue:
 Example using break:
 
  Class Test{
+ 
 	public static void main(String[] args){
+	
 		for(int i = 0; i <= 10; i++){
+		
 			if(i == 5){
+			
 				break;    // Once the loop reaches number 5, it will stop the loop and it will not go more than 5
+				
 			}
+			
 			System.out.println(i);
+			
 		}
+		
 
 	}
+	
 
 }
+
 
 Example using continue:
 
