@@ -68,6 +68,7 @@ for(int num: number){
 
 
 Break and Continue:
+
   We can use break and continue in all loops. We use break to stop the loop, but continue is used to skip the particular iteration(loop).
 
 Example using break:
