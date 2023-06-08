@@ -74,6 +74,8 @@ number[4]
 
 For each loop is another looping statement. It does not have condition. It will print print the data from start to end.  It will take all the records from starting to end. 
 
+
+
 Example:
 
 int[] number = {100, 200, 300};
@@ -86,6 +88,8 @@ for(int num: number){
 
 For loop is used if you want to print a specific range. For example between one to one hundred, you can go from 45 - 89 if you use the for loop. 45 -
 89 is a specific range.
+
+For each loop is condition based. It is used to print the data from starting to ending value. It is also used to print the data from arrays.
 
 # Break and Continue:
 
