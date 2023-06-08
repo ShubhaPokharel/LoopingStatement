@@ -82,7 +82,11 @@ for(int num: number){
 	System.out.println(num);
 }
 
+# For loop vs For each loop:
 
+For loop is used if you want to print a specific range. For example between one to one hundred, you can go from 45 - 89 if you use the for loop. 45 -
+
+89 is a specific range.
 
 # Break and Continue:
 
