@@ -120,9 +120,9 @@ Class Test{
 
 }
 
-Unreachable Statement:
+Unreachable Statement and Infinite Loop:
 
-If we dont apply any condition to the for loop we will get true condition. The true condition will run forever. 
+If we dont apply any condition to the for loop we will get true condition by default. The loop will run forever. 
 
 To make it stop in the terminal we use ctrl + c.
 
