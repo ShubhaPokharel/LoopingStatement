@@ -3,7 +3,7 @@
 
 # What is looping statements in java?
 
-  Looping statements are used to repeat the same code multiple times until the condition is failed.Using loops is better than writing the same code multiple times. 
+  Looping statements are used to repeat the same code multiple times until the condition is failed. Using loops is better than writing the same code multiple times. 
 
 For example, if you want to print a message 10 times, rather than typing the same code 10 times again and again, you can use loop!
 
