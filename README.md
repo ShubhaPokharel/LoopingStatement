@@ -99,17 +99,27 @@ Example using break:
 Example using continue:
 
 Class Test{
+
 	public static void main(String[] args){
+	
 		for(int i = 0; i <= 10; i++){
+		
 			if(i == 3){
+			
 				continue;         // Once the loop reaches 3, it will skip 3 but it will keep printing until it reaches 10
+				
 			}
+			
 			System.out.println(i);
+			
 		}
+		
 
 	}
+	
 
 }
+
 
 
 What is an array?
