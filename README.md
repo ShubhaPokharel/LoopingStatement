@@ -120,7 +120,38 @@ Class Test{
 
 }
 
+Unreachable Statement:
 
+If we dont apply any condition to the for loop we will get true condition. The true condition will run forever. 
+
+To make it stop in the terminal we use ctrl + c.
+
+Example 1:
+
+        no condition
+	
+for(int i = 0; ; i++){         
+
+	System.out.println(i);
+	
+}
+
+Example 2:
+
+This is unreachable! We cannot print Hello World beause we have no condition in the for loop.
+
+for(int i = 0; true ; i++){
+
+	System.out.println(i);
+	
+}
+System.out.println("Hello World");   //This line 145 is unreachable
+
+So, unreachable statement is when the control cannot reach an area. The difference between an unreachable statement and an infinite loop is that an
+
+infinite loop runs forever and an unreachable statement is we have an infinite loop but we have code outside of that loop. Because of true condition
+
+the loop always iterates infinite times and outside the loop code is not executed which is unreachable.
 
 What is an array?
 
