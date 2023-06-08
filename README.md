@@ -34,10 +34,11 @@ b - Condition
 c - Increment / Decrement 
        
 
-           1         2,  5        4, 7
+          1         2,  5        4, 7
 	   
 for(initialization; condition; inc/dec)
 {
+
 	  3, 6
 	  
 	logics / body part
