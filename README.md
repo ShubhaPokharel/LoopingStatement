@@ -42,7 +42,7 @@ for(initialization; condition; inc/dec)
 	logics / body part
 }
 
-The initialization is the starting point. The condition is the ending point or where we need to stop. The increment or decrement is how much stepping value. The logic is the code to be executed.
+The initialization is the starting point. The condition is the ending point or where we need to stop. The increment or decrement is how much stepping value. The logic to be executed inside the curley braces is called body part.
 Example:
 
 for( int  i= 0; i <= 10; i++){
@@ -53,7 +53,7 @@ In the example above, “Hello World” will get printed 10 times.
 
 
 # .length method():
-.length() is used to take all the elements( increasing or decreasing). Java class int class has provided this method. It is good to use because we dont need to worry about the size of the array. The loop will repeat until the condition fails.
+.length() is used to take all the elements( increasing or decreasing). Java int class has provided this method. It is good to use because we dont need to worry about the size of the array. The loop will repeat until the condition fails.
 Example:
 
 int num = 200;
