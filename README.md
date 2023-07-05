@@ -36,10 +36,10 @@ c - Increment / Decrement
 	   
 for(initialization; condition; inc/dec)
 {
-
-	  3, 6
 	  
 	logics / body part
+
+              3, 6
 }
 
 The initialization is the starting point. The condition is the ending point or where we need to stop. The increment or decrement is how much stepping value. The logic to be executed inside the curley braces is called body part.
